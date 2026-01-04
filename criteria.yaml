@@ -1,0 +1,50 @@
+version: 1
+
+scale:
+  min: 1
+  max: 5
+  meaning:
+    1: "Poor / missing"
+    3: "Acceptable / usable"
+    5: "Excellent / best-in-class"
+
+criteria:
+  - id: fit_ea_bpm
+    name: "Fit for EA/BPM use cases"
+    weight: 0.18
+    description: "Coverage of enterprise architecture and/or process modeling needs."
+
+  - id: usability
+    name: "Usability and adoption"
+    weight: 0.12
+    description: "Ease of use, learnability, and stakeholder friendliness."
+
+  - id: integration
+    name: "Integration and interoperability"
+    weight: 0.15
+    description: "Ease of use, learnability, and stakeholder friendliness."
+
+  - id: governance
+    name: "Governance and lifecycle support"
+    weight: 0.12
+    description: "Versioning, approvals, audit trail, and role-based access."
+
+  - id: security
+    name: "Security and compliance readiness"
+    weight: 0.12
+    description: "Enterprise security posture and access controls."
+
+  - id: reporting
+    name: "Reporting and insights"
+    weight: 0.10
+    description: "Dashboards, analytics, and traceability."
+
+  - id: scalability
+    name: "Scalability and maintainability"
+    weight: 0.11
+    description: "Suitability for large organizations."
+
+  - id: cost
+    name: "Cost and licensing flexibility"
+    weight: 0.10
+    description: "Cost predictability and licensing complexity."

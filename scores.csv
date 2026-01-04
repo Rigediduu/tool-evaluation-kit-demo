@@ -1,0 +1,4 @@
+tool,fit_ea_bpm,usability,integration,governance,security,reporting,scalability,cost,notes
+ToolA,4,3,4,3,4,3,4,3,"Good coverage; moderate learning curve."
+ToolB,3,4,3,4,4,4,3,2,"Strong governance; higher licensing cost."
+ToolC,2,5,2,2,3,2,2,4,"Very easy to use; limited enterprise scope."
